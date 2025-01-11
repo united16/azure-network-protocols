@@ -33,7 +33,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
+<img src="RG Creation.jpg" height="25%" width="25%" alt="RG Creation"/> <img src="Creat win-vm.jpg" height="25%" width="25%" alt="Windows VM"/> <img src="linux-VM.jpg" height="25%" width="25%" alt="Linux VM"/>
 </p>
 <p>
 After creating the Resource Group (RG), I set up Windows and Linux Virtual Machines (VMs) and placed them within the RG. I also configured a new Virtual Network and added both VMs to it.
