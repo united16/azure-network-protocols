@@ -39,7 +39,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 After creating the Resource Group (RG), I set up Windows and Linux Virtual Machines (VMs) and placed them within the RG. I also configured a new Virtual Network and added both VMs to it. Then connect to them via Remote desktop.
 </p>
 <br />
-
+<h4>Step 1</h4> 
 <p>
 <img src="Wireshark Install.jpeg" height="25%" width="25%" alt="Wireshark Install"/> <img src="Ping Linux.jpeg" height="25%" width="25%" alt="Ping Linux"/> <img src="Continue Pinging.jpeg" height="25%" width="25%" alt="Continue Pinging"/>
 </p>
