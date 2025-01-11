@@ -41,7 +41,7 @@ After creating the Resource Group (RG), I set up Windows and Linux Virtual Machi
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="Wireshark Install.jpeg" height="25%" width="25%" alt="Wireshark Install"/> <img src="Ping Linux.jpeg" height="25%" width="25%" alt="Ping Linux"/> <img src="Continue Pinging.jpeg" height="25%" width="25%" alt="Continue Pinging"/>
 </p>
 <p>
 Wireshark is a network protocol analyzer that allows us to capture, inspect, and analyze network traffic. After installing Wireshark, I intended to ping Linux VM from Windows 10 VM using PowerShell, targeting the private IP address of the Linux VM. Next, I proceeded to configure the firewall by first initiating a continuous ping from the Windows 10 VM to the Linux VM. 
