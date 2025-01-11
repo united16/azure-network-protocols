@@ -23,12 +23,12 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Windows 10 (21H2)
 - Ubuntu Server 24.04
 
-<h2>High-Level Steps</h2>
+<!--<h2>High-Level Steps</h2>
 
 - Created a Resource Group (RG), a Windows and Linux Virtual Machines (VM)
 - Downlaod Wireshark
 - Step 3
-- Step 4
+- Step 4-->
 
 <h2>Actions and Observations</h2>
 <h4>Step 1</h4>
