@@ -31,7 +31,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 - Step 4
 
 <h2>Actions and Observations</h2>
-
+<h4>Step 1</h4>
 <p>
 <img src="RG Creation.jpg" height="25%" width="25%" alt="RG Creation"/> <img src="Creat win-vm.jpg" height="25%" width="25%" alt="Windows VM"/> <img src="linux-VM.jpg" height="25%" width="25%" alt="Linux VM"/>
 </p>
