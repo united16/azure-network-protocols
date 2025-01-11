@@ -26,7 +26,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>High-Level Steps</h2>
 
 - Created a Resource Group (RG), a Windows and Linux Virtual Machines (VM)
-- Step 2
+- Downlaod Wireshark
 - Step 3
 - Step 4
 
@@ -36,7 +36,7 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <img src="RG Creation.jpg" height="25%" width="25%" alt="RG Creation"/> <img src="Creat win-vm.jpg" height="25%" width="25%" alt="Windows VM"/> <img src="linux-VM.jpg" height="25%" width="25%" alt="Linux VM"/>
 </p>
 <p>
-After creating the Resource Group (RG), I set up Windows and Linux Virtual Machines (VMs) and placed them within the RG. I also configured a new Virtual Network and added both VMs to it.
+After creating the Resource Group (RG), I set up Windows and Linux Virtual Machines (VMs) and placed them within the RG. I also configured a new Virtual Network and added both VMs to it. Then connect to them via Remote desktop.
 </p>
 <br />
 
@@ -44,7 +44,7 @@ After creating the Resource Group (RG), I set up Windows and Linux Virtual Machi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Wireshark is a network protocol analyzer that allows us to capture, inspect, and analyze network traffic. After installing Wireshark, I intended to ping Linux VM from Windows 10 VM using PowerShell, targeting the private IP address of the Linux VM. Next, I proceeded to configure the firewall by first initiating a continuous ping from the Windows 10 VM to the Linux VM. 
 </p>
 <br />
 
