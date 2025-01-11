@@ -39,7 +39,8 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 After creating the Resource Group (RG), I set up Windows and Linux Virtual Machines (VMs) and placed them within the RG. I also configured a new Virtual Network and added both VMs to it. Then connect to them via Remote desktop.
 </p>
 <br />
-<h4>Step 1</h4> 
+
+<h4>Step 2</h4> 
 <p>
 <img src="Wireshark Install.jpeg" height="25%" width="25%" alt="Wireshark Install"/> <img src="Ping Linux.jpeg" height="25%" width="25%" alt="Ping Linux"/> <img src="Continue Pinging.jpeg" height="25%" width="25%" alt="Continue Pinging"/>
 </p>
@@ -48,8 +49,18 @@ Wireshark is a network protocol analyzer that allows us to capture, inspect, and
 </p>
 <br />
 
+<h4>Step 3</h4> 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
+</p>
+<p>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</p>
+<br />
+
+<h4>Step 4</h4> 
+<p>
+<img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
