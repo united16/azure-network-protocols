@@ -40,7 +40,7 @@ After creating the Resource Group (RG), I set up Windows and Linux Virtual Machi
 </p>
 <br />
 
-<h4>Step 2: Wireshark, Configuring Firewall and Secure Shell </h4> 
+<h4>Step 2: Wireshark, Configuring Firewall</h4> 
 <p>
 <img src="Wireshark Install.jpeg" height="25%" width="25%" alt="Wireshark Install"/> <img src="Ping Linux.jpeg" height="25%" width="25%" alt="Ping Linux"/> <img src="Continue Pinging.jpeg" height="25%" width="25%" alt="Continue Pinging"/> 
   <img src="Linux ICMP Deny.jpg" height="20%" width="20%" alt="ICMP Deny"/>
@@ -51,16 +51,15 @@ Wireshark is a network protocol analyzer that allows us to capture, inspect, and
 </p>
 <br />
 
-<h4>Step 3: DHCP and DNS</h4> 
+<h4>Step 3: SSH and DHCP</h4> 
 <p>
-<img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
+<img src="SSH.jpg" height="25%" width="25%" alt="SSH"/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+I also worked with SSH (Secure Shell), which is a protocol that allows a computer to establish a secure connection with another computer. Specifically, I established an SSH connection from a Windows 10 VM to a Linux VM using the Linux private IP address. </p>
 <br />
 
-<h4>Step 4: RDP</h4> 
+<h4>Step 4: RDP and DNS</h4> 
 <p>
 <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
 </p>
