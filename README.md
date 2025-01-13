@@ -33,17 +33,16 @@ In this tutorial, we observe various network traffic to and from Azure Virtual M
 <h2>Actions and Observations</h2>
 <h4>Step 1: RG, Windows and Linux VM</h4>
 <p>
-<img src="RG Creation.jpg" height="25%" width="25%" alt="RG Creation"/> <img src="Creat win-vm.jpg" height="25%" width="25%" alt="Windows VM"/> <img src="linux-VM.jpg" height="25%" width="25%" alt="Linux VM"/>
+<h5>RG</h5> <img src="RG Creation.jpg" height="25%" width="25%" alt="RG Creation"/> <h5>Windows</h5> <img src="Creat win-vm.jpg" height="25%" width="25%" alt="Windows VM"/> <h5>Linux</h5> <img src="linux-VM.jpg" height="25%" width="25%" alt="Linux VM"/>
 </p>
 <p>
 After creating the Resource Group (RG), I set up Windows and Linux Virtual Machines (VMs) and placed them within the RG. I also configured a new Virtual Network and added both VMs to it. Then connect to them via Remote desktop.
 </p>
 <br />
 
-<h4>Step 2: Wireshark, Configuring Firewall</h4> 
+<h4>Step 2: Wireshark and Configuring Firewall</h4> 
 <p>
-<img src="Wireshark Install.jpeg" height="25%" width="25%" alt="Wireshark Install"/> <img src="Ping Linux.jpeg" height="25%" width="25%" alt="Ping Linux"/> <img src="Continue Pinging.jpeg" height="25%" width="25%" alt="Continue Pinging"/> 
-  <img src="Linux ICMP Deny.jpg" height="20%" width="20%" alt="ICMP Deny"/>
+<h5>Install Wireshark</h5> <img src="Wireshark Install.jpeg" height="25%" width="25%" alt="Wireshark Install"/> <h5>Pinging Linux</h5> <img src="Ping Linux.jpeg" height="25%" width="25%" alt="Ping Linux"/> <h5>Continues Ping</h5> <img src="Continue Pinging.jpeg" height="25%" width="25%" alt="Continue Pinging"/> <h5>ICMP Deny</h5> <img src="Linux ICMP Deny.jpg" height="20%" width="20%" alt="ICMP Deny"/>
 
 </p>
 <p>
@@ -53,7 +52,7 @@ Wireshark is a network protocol analyzer that allows us to capture, inspect, and
 
 <h4>Step 3: SSH and DHCP</h4> 
 <p>
-<img src="SSH.jpg" height="25%" width="25%" alt="SSH"/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
+<img src="SSH.jpg" height="25%" width="25%" alt="SSH"/> <img src="" height="25%" width="25%" alt=""/>
 </p>
 <p>
 I also worked with SSH (Secure Shell), which is a protocol that allows a computer to establish a secure connection with another computer. Specifically, I established an SSH connection from a Windows 10 VM to a Linux VM using the Linux private IP address. </p>
