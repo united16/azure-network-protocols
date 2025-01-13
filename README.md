@@ -55,7 +55,8 @@ Wireshark is a network protocol analyzer that allows us to capture, inspect, and
 <img src="SSH.jpg" height="25%" width="25%" alt="SSH"/> <img src="" height="25%" width="25%" alt=""/>
 </p>
 <p>
-I also worked with SSH (Secure Shell), which is a protocol that allows a computer to establish a secure connection with another computer. Specifically, I established an SSH connection from a Windows 10 VM to a Linux VM using the Linux private IP address. </p>
+I also worked with SSH (Secure Shell), which is a protocol that allows a computer to establish a secure connection with another computer. I successfully established an SSH connection from a Windows 10 VM to a Linux VM using the Linux private IP address and analyzed the corresponding traffic in Wireshark. Furthermore, I worked with DHCP (Dynamic Host Configuration Protocol), which is used to automatically assign IP addresses and other network configuration details to devices on a network. I observed DHCP traffic in Wireshark while experimenting with various PowerShell commands, such as: ipconfig /renew (which doesn't renew the IP address but initiates certain background processes) and ipconfig /release (which releases or drop the current assigned IP address)
+</p>
 <br />
 
 <h4>Step 4: RDP and DNS</h4> 
