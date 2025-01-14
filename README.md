@@ -52,18 +52,20 @@ Wireshark is a network protocol analyzer that allows us to capture, inspect, and
 
 <h4>Step 3: SSH and DHCP</h4> 
 <p>
-<img src="SSH.jpg" height="25%" width="25%" alt="SSH"/> <img src="" height="25%" width="25%" alt=""/>
+<h5>SSH</h5> <img src="SSH.jpg" height="25%" width="25%" alt="SSH"/> <h5>DHCP</h5> <img src="release  renew.jpg" height="25%" width="25%" alt="rr"/>
 </p>
 <p>
 I also worked with SSH (Secure Shell), which is a protocol that allows a computer to establish a secure connection with another computer. I successfully established an SSH connection from a Windows 10 VM to a Linux VM using the Linux private IP address and analyzed the corresponding traffic in Wireshark. Furthermore, I worked with DHCP (Dynamic Host Configuration Protocol), which is used to automatically assign IP addresses and other network configuration details to devices on a network. I observed DHCP traffic in Wireshark while experimenting with various PowerShell commands, such as: ipconfig /renew (which doesn't renew the IP address but initiates certain background processes) and ipconfig /release (which releases or drop the current assigned IP address)
 </p>
 <br />
 
-<h4>Step 4: RDP and DNS</h4> 
+<h4>Step 4: RDP(TCP- port 3389) and DNS(TCP & UDP- port 53)</h4> 
 <p>
-<img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/> <img src="" height="25%" width="25%" alt=""/>
+<h5>DNS</h5> <img src="ns.jpg" height="25%" width="25%" alt="nslookup"/> <h5>RDP</h5> <img src="conncet.jpg" height="20%" width="20%" alt=""/> <img src="conncection.jpg" height="20%" width="20%" alt=""/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+DNS(Domain Name System) is a system that converts human readable domain names into IP addresses that computers use to communicate. I used Wireshark to filter for DNS traffic only, so I could observe the traffic while executing commands in PowerShell. I typed 'nslookup google.com' in PowerShell, which displayed the IP address of the website. In Wireshark, I observed the packet traffic related to the DNS query and response. RDP(Remote Desktop Protocol) is a protocol used to remotely connect one computer to another, enabling access to the remote computers desktop environment wirelessly. This connection provides a remote desktop GUI (Graphical User Interface), allowing users to interact with the remote computer as if they're physically in front of it.
+
+
 </p>
 <br />
